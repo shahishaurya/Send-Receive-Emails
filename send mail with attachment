@@ -12,10 +12,10 @@ def send_mail(email, password, FROM, TO, msg):
     server.sendmail(FROM, TO, msg.as_string())
     server.quit()
 
-email = "shauryashahi787@gmail.com"
-password = "Shaurya@1418"
-FROM = "shauryashahi787@gmail.com"
-TO   = "shaurya.1si14ee041@gmail.com"
+email = "source email"
+password = "pswd"
+FROM = "source email"
+TO   = "destination email"
 subject = "Just a subject with attachment"
 msg = MIMEMultipart("alternative")
 msg["From"] = FROM
